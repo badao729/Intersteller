@@ -13,76 +13,70 @@ spacecraft max distance:
 protection
 
 
-[
-    {
-        "name":"Mars",
-        "distance":"1.88 EARTH YEARS",
-        "weight":"0.15",
-        "temperature":"-55℃"
-        "items":[
-            {
-                "item":"大气样本",
-                "value":"10",
-                "weight":"1"
-            }，
-             {
-                "item":"外星人遗骸",
-                "value":"40",
-                "weight":"5"
-            }，
-        ]
-        },
-    {
-        "name":"Mercury",
-        "distance":"0.24 EARTH YEARS",
-        "weight":"0.06",
-        "temperature":"180℃"
-        "items":[
-            {
-                "item":"水样本",
-                "value":"10",
-                "weight":"2"
-            }，
-             {
-                "item":"土壤样本",
-                "value":"10".
-                "weight":"3"
-            }，
-        ]
-        },
-    {
-        "name":"Venus",
-        "distance":"0.62 EARTH YEARS",
-        "weight":"0.86",
-        "temperature":"475℃"
-        "items": [
-            {
-                "item":"陨石样本",
-                "value":"15".
-                "weight":"5"
-            }，
-             {
-                "item":"火山样本",
-                "value":"10",
-                "weight":"3",
-            }，
-        ]   
-        },
-    {
-        "name":"Uranus",
-        "distance":"84 EARTH YEARS",
-        "weight":"63",
-        "temperature":"-190℃"
-        "items":[
-            {
-                "item":"未知样本",
-                "value":"50"，
-                "weight":"5",
-            }，
 
-        ]
-        }
+
+Hello Everyone,
+
+My name is Ying, my teammate is Li
+
+We going to share with you our project, "Inters tellar." 
+
+Let's dive into what makes our website special:
 
 
 
-]
+
+Our site has two main parts:
+ the header and the body.
+
+In the header, we've listed the creators' names, 
+added a cool logo, 
+and put in some music related to Inters tellar. 
+This music is here to make visiting our site more fun. 
+So, let's kick back with our background tunes as I walk you through a journey among the stars.
+
+
+
+The body of our site shows a galaxy with five planets:
+ Earth, Mars, Mercury, Venus, and Uranus, against a star system background. 
+
+We used real positions of these planets from NASA as of today, March 7th, to set them up. Clicking on each planet shows you actual facts about it, based on our own  API.
+
+The data we needed comes from different web, so we built our own api
+
+
+
+Mission
+
+Here is the story, you're the Canadian  astro naut.
+
+Your mission is to visit these planets, face tough environments, and collect as many valuable samples as you can to send back to Earth. 
+
+Your spaceship has a max distance it can travel， and a shield strength. 
+
+Your trip is starting from Earth, visiting planets, uses up some of your ship's travel distance and shield. 
+Since your travel distance and shield are limited, 
+You need to consider your plan to gain the most valuable simples
+
+
+
+A panel will show how you're doing and what samples you've got.
+The other panel also displays planet's data.
+
+
+
+
+
+
+When you click the "Back to Earth" button, you come back home and see what you got.
+
+Now, my teammate will talk about the coding behind our space adventure, and some chanllege.
+
+
+
+
+
+the more interesting, the harder to make
+
+Thanks for listening, and we hope you have fun exploring space with us.
+
