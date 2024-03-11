@@ -1,0 +1,169 @@
+@use "../../styles/partials/variables" as *;
+
+@keyframes scaleUp {
+    from {
+      transform: scale(1);
+    }
+  
+    to {
+      transform: scale(1.3);
+    }
+  }
+
+
+
+
+.home {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    overflow: hidden;
+    position: relative;
+
+    .universe {
+        background-image: url("../../asset/background/background1.avif");
+        height: 60rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+
+        .earth {
+            height: 30rem;
+            position: absolute;
+            left: 5rem;
+            top: 8rem
+        }
+
+        .player {
+            height: 7rem;
+            position: absolute;
+            left: 8.5rem;
+            top: 13rem;
+            cursor: pointer;
+        }
+
+        .mars {
+            height: 12rem;
+            position: absolute;
+            left: 45rem;
+            top: 25rem;
+            cursor: pointer;
+        }
+
+        .mercury {
+            height: 5rem;
+            position: absolute;
+            left: 25rem;
+            top: 12rem;
+            cursor: pointer;
+        }
+
+        .uranus {
+            height: 18rem;
+            position: absolute;
+            top: 3rem;
+            left:68rem;
+            cursor: pointer;
+        }
+
+        .venus {
+            height: 10rem;
+            position: absolute;
+            left: 30rem;
+            top: 20rem;
+            cursor: pointer;
+        }
+
+        img:hover, img:active{
+            animation: scaleUp 1s forwards;
+        }
+       
+    }
+
+ .info-container{
+    position: absolute;
+    left:5rem;
+    top: 40rem;
+    display: flex;
+    flex-direction: row;
+
+    .spacecraft{
+        height: 7rem;
+    }
+    
+ }
+
+ .output {
+    height: 14rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    background-color: rgba(25, 33, 43, 0.9);
+    margin-left: 1rem;
+    color: white;
+    line-height: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    
+
+    .back-button{
+        width: 10rem;
+        font-size: 1rem;
+        margin-top: 2rem;
+        padding: 0.4rem;
+        color: white;
+        background-color: rgba(39, 52, 112, 0.9);
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 2.5rem;
+    }
+
+
+}
+
+
+}
+
+.plateform {
+    height: 15rem;
+    width: 23rem;
+    border-radius: 0.5rem;
+    background-color: rgba(25, 33, 43, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 0.5rem;
+        padding-top: 0.8rem;
+        background-color: rgba(106, 116, 128, 0.9);
+        border-radius: 10px;
+        width: 80%;
+        color: white;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    input::placeholder {
+        color: rgba(217, 220, 223, 0.9);
+        font-size: 0.8rem;
+    }
+
+    .load-button{
+        width: 10rem;
+        font-size: 1rem;
+        margin-top: 2rem;
+        padding: 0.4rem;
+        color: white;
+        background-color: rgba(39, 52, 112, 0.9);
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+
+
+}

@@ -1,0 +1,77 @@
+[
+    {"id": "1",
+    "name": "mars",
+    "distanceFromEarth": 1.88,
+    "weight": "0.15",
+    "surfaceTemperature": -55,
+    "samplesForCollection": 
+    [
+        {
+            "item":"Atmospheric samples",
+            "value":"3",
+            "weight":"1"
+        },
+         {
+            "item":"Alien remains",
+            "value":"40",
+            "weight":"7"
+        }
+    ],
+    "distanceToOtherStars" : [{"venus": "120 Million KM"},{"Uranus": "1200 Million KM"}]
+    },
+    {"id": "2",
+    "name": "venus",
+    "distanceFromEarth": 0.62, 
+    "weight":"0.86",
+    "surfaceTemperature": 475,
+    "samplesForCollection": 
+    [
+        {
+            "item":"Stone samples",
+            "value":"15",
+            "weight":"5"
+        },
+         {
+            "item":"Volcanic samples",
+            "value":"15",
+            "weight":"3"
+        }
+    ],
+    "distanceToOtherStars" : [{"Mars": "120 Million KM"},{"Uranus": "1200 Million KM"}]
+    },
+    {"id": "3",
+    "name": "mercury",
+    "distanceFromEarth": 0.24, 
+    "weight":"0.06",
+    "surfaceTemperature": 180,
+    "samplesForCollection":
+     [
+        {
+            "item":"Water samples",
+            "value":"10",
+            "weight":"2"
+        },
+         {
+            "item":"Soil samples",
+            "value":"10",
+            "weight":"3"
+        }
+     ],
+     "distanceToOtherStars" : [{"Venus": "120 Million KM"},{"Uranus": "1200 Million KM"}]
+    },
+    {"id": "4",
+    "name": "uranus",
+    "distanceFromEarth": 84, 
+    "weight":"63",
+    "surfaceTemperature": -190,
+    "samplesForCollection":
+    [
+        {
+            "item":"Unknown samples",
+            "value":"100",
+            "weight":"5"
+        }
+    ],
+    "distanceToOtherStars" : [{"Mercury": "120 Million KM"},{"Mars": "1200 Million KM"}]
+    }
+]

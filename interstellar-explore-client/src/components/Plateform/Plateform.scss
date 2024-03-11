@@ -1,0 +1,44 @@
+@use "../../styles/partials/variables" as *;
+
+.plateform {
+    height: 15rem;
+    width: 23rem;
+    border-radius: 0.5rem;
+    background-color: rgba(25, 33, 43, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 0.5rem;
+        padding-top: 0.8rem;
+        background-color: rgba(106, 116, 128, 0.9);
+        border-radius: 10px;
+        width: 80%;
+        color: white;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    input::placeholder {
+        color: rgba(217, 220, 223, 0.9);
+        font-size: 0.8rem;
+    }
+
+    .load-button{
+        width: 10rem;
+        font-size: 1rem;
+        margin-top: 2rem;
+        padding: 0.4rem;
+        color: white;
+        background-color: rgba(39, 52, 112, 0.9);
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+
+
+}

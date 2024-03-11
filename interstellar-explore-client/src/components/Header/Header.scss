@@ -1,0 +1,40 @@
+@use "../../styles/partials/variables" as *;
+
+*{
+    font-family: $font-family
+}
+
+.header {
+    background-image: url("../../asset/background/title.jpeg");
+    height: 8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .logo {
+        width: auto;
+        height: 5rem;
+
+    }
+
+    .author {
+        color: $Silver;
+        font-weight: 700;
+
+        P {
+            margin: 0;
+        }
+    }
+
+    iframe{
+        padding-right: 1rem;
+    }
+}
