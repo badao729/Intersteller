@@ -3,6 +3,9 @@ const cors = require('cors');
 const starRoutes = require('./routes/star');
 const app = express();
 
+
+
+
 // Allows GET requests to get static assets in /public folder
 app.use(express.static("public"));
 
