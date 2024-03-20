@@ -14,7 +14,7 @@ app.use((req, _res, next) => {
     next();
 })
 // Enable CORS so API can be used on client-side
-app.use(cors());
+app.use(cors({ origin: '*' }));
 
 // Enable JSON parsing for reading POST/PUT requests
 app.use(express.json());
