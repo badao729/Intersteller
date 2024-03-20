@@ -14,7 +14,7 @@ function PlanetInfo() {
     const [distanceFromEarth,setDistanceFromEarth] = useState("");
     const [weight,setWeight] = useState("");
     const [surfaceTemperature,setSurfaceTemperature] = useState("");
-    const baseUrl = "http://localhost:8080";
+    const baseUrl = process.env.REACT_APP_APIURL;
     const handleClick =  async (event) => {
         const starName = event.target.alt;
         const response = await axios.get(`${baseUrl}/stars/${starName}`)

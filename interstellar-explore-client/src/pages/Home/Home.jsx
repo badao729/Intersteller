@@ -32,7 +32,7 @@ function Home() {
           console.log(shieldStrength);
           event.target.reset();
       }
-  const baseUrl = "http://localhost:8080";
+  const baseUrl = process.env.REACT_APP_APIURL;
   const [stars, setStars] = useState([]);
   const [availableStars, setAvailableStars] = useState([]);
   const { id } = useParams();
