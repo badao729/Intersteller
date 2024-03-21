@@ -28,3 +28,5 @@ app.use("/stars", starRoutes);
 app.listen(8080, function() {
     console.log("Server is now listening at http://localhost:8080");
 });
+
+module.exports = app;
